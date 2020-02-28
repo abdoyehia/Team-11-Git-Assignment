@@ -1,4 +1,4 @@
 
 public interface ISubscriber {
-	public abstract void notifySubscriber(String input);
+	public abstract void notifySubscriber(int input);
 }
