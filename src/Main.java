@@ -9,6 +9,7 @@ public class Main {
 		        new Fibonacci(),
 			new CircleCircumference(),
 			new LucasSeries(),
+			new SphereCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
