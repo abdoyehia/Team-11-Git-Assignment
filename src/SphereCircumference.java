@@ -1,5 +1,5 @@
 
-public class SphereCircumference implemetns ISubscriber{
+public class SphereCircumference implements ISubscriber{
 	public double circumference(int r)
 	{
 		double sphereCirc = Math.PI * 2 * r;
