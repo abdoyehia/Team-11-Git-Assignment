@@ -15,6 +15,7 @@ public class Main {
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
 		}
+		System.out.print("Enter num: ");
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		mathTopic.dispatchEvent(input);
