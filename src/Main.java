@@ -6,9 +6,9 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new sphereAreae(),
 			new Multiplicationseriess(),
-		        new Fibonacci(),
 			new CircleCircumference(),
 			new LucasSeries(),
+			new TwoPowerN(),
 			new SphereCircumference(),
 	};
 	public static void main(String[] args) {
