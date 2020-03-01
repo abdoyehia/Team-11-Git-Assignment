@@ -10,6 +10,7 @@ public class Main {
 			new LucasSeries(),
 			new TwoPowerN(),
 			new SphereCircumference(),
+			new SumSeries(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
