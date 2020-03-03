@@ -30,16 +30,24 @@ public class Main {
 			mathTopic.dispatchEvent(input);
 		}
 		if(choice==2) {
+			while(true) {
 		System.out.println("2- sphereAreae");
 		System.out.println("3- Multiplicationseriess");
 		System.out.println("4- CircleCircumference");
-		System.out.println("5- LucasSeries");
-		System.out.println("6- TwoPowerN");
-		System.out.println("7- SphereCircumference");
-		System.out.println("8- SumSeries");
+		System.out.println("5- CircleArea");
+		System.out.println("6- LucasSeries");
+		System.out.println("7- TwoPowerN");
+		System.out.println("8- SphereCircumference");
+		System.out.println("9- SumSeries");
+		System.out.println("0- End");
 		System.out.print("Enter choice: ");
 		int choice1=sc.nextInt();
+		if(choice1==0)
+		{
+			break;
+		}
 		mathTopic.dispatchEvent2(input,choice1);
+			}
 		}
 	}
 }
