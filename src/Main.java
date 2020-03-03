@@ -12,6 +12,7 @@ public class Main {
 			new TwoPowerN(),
 			new SphereCircumference(),
 			new SumSeries(),
+			new Fibonacci(),
 
 	};
 	public static void main(String[] args) {
@@ -39,6 +40,7 @@ public class Main {
 		System.out.println("7- TwoPowerN");
 		System.out.println("8- SphereCircumference");
 		System.out.println("9- SumSeries");
+		System.out.println("10- Fibonacci");
 		System.out.println("0- End");
 		System.out.print("Enter choice: ");
 		int choice1=sc.nextInt();
