@@ -20,8 +20,8 @@ public class Main {
 		System.out.print("Enter num: ");
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
-		System.out.println("1-excute All");
-		System.out.println("2- excute specific Subscriber");
+		System.out.println("1-Execute All");
+		System.out.println("2-Execute Specific Subscriber");
 		System.out.print("Enter choice: ");
 		int choice=sc.nextInt();
 		if(choice==1) {
