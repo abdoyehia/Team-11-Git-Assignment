@@ -16,7 +16,9 @@ public class Topic {
 	public List<ISubscriber> getSubscribers() {
 		return subscribers;
 	}
-	
+	public void dispatchEvent2(int input,int choice) {
+		subscribers.get(choice).notifySubscriber(input);
+	}
 	public void dispatchEvent(int input) {
 		for (ISubscriber sub : this.getSubscribers()) {
 			sub.notifySubscriber(input);
