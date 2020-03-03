@@ -6,15 +6,20 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new sphereAreae(),
 			new Multiplicationseriess(),
-		        new Fibonacci(),
 			new CircleCircumference(),
 			new CircleArea(),
+			new LucasSeries(),
+			new TwoPowerN(),
+			new SphereCircumference(),
+			new SumSeries(),
+
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
 		}
+		System.out.print("Enter num: ");
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		mathTopic.dispatchEvent(input);
